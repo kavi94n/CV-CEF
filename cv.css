@@ -1,0 +1,168 @@
+
+
+body{
+    height: auto;
+    width: 1160px;
+    display: grid;
+    place-content: center;
+    grid-template-areas: 
+    'header header header'
+    'title title title'
+    'nav content content'
+    'footer footer footer';
+    grid-template-columns: 2fr 4fr 1fr;
+     
+    grid-template-rows:200px 60px 1fr 100px;
+    margin: auto;
+    
+    
+
+}   
+
+header,
+nav,
+main,
+aside,
+footer{
+    color: white;
+    padding: 20px;
+}
+
+
+header{
+    grid-area:header;
+    background-color: #782221 ;
+    display: grid;
+    justify-items: center;
+   
+   
+    
+
+
+}
+
+aside{
+    grid-area: nav;
+    background-color: #782221 ;
+    padding-left: 0%;
+
+   
+   
+    
+    
+   
+    
+}
+
+main{
+    grid-area: content;
+    background-color: white;
+    border-RIGHT: 5PX;
+    color: black;
+    justify-content: space-around;
+    border-right: 4px black solid;
+    
+}
+
+nav{
+    grid-area: title;
+    background-color:#2c1d27 ;
+    
+  
+   
+    
+    
+}    
+
+footer{
+    grid-area: footer;
+    background-color: #782221 ;
+   
+}
+
+header a{
+
+    display: grid;
+    justify-items: center;
+}
+
+    
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+   
+
+aside h3{
+background-color: #dbc2a4;
+color: black;
+display: flex;
+
+
+
+
+
+}
+
+main div h3{
+    display: flex;
+    color: black;
+    background-color: #dbc2a4;
+    border-left: #782221 30px solid;
+    padding-left: 30px;
+    
+    
+    
+   
+    
+}
+   
+aside li{
+    list-style-type: disc;
+}
+
+div li{
+    list-style-type: disc;
+}
+
+span a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+aside p{
+    
+padding-left: 30px;
+
+}
+
+body img{
+    
+    height: 80px;
+}
+
+.h4{
+   background-color: #782221; 
+   width: 20px;
+}
+
+
+footer{
+    justify-content: center;
+    display: grid;
+    padding-bottom: 1px;
+    
+    
+}
+
+span{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+    
