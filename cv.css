@@ -1,5 +1,5 @@
 
-
+/*stlyle full body*/
 body{
     height: auto;
     width: 1160px;
@@ -18,7 +18,7 @@ body{
     
 
 }   
-
+ /*style colour full boddy*/
 header,
 nav,
 main,
@@ -27,7 +27,7 @@ footer{
     color: white;
     padding: 20px;
 }
-
+/*style headdey contect*/
 
 header{
     grid-area:header;
@@ -40,7 +40,7 @@ header{
 
 
 }
-
+/*style aside en détais*/
 aside{
     grid-area: nav;
     background-color: #782221 ;
@@ -53,7 +53,7 @@ aside{
    
     
 }
-
+/*style main body expériances proffessionnels*/
 main{
     grid-area: content;
     background-color: white;
