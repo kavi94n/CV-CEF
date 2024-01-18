@@ -102,25 +102,15 @@ header a{
 
 }
 
-.underline:hover{
-     
-}
+
+
 
 
    
     
- /*style contect personnel*/   
-.underline{
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    color: white;  
+   
 
-}
 
-.underline:hover{
-     
-}
 
 
    
@@ -182,8 +172,7 @@ footer{
 }
 
     
-    
-}
+
 
 
 
