@@ -1,6 +1,7 @@
 
-/*stlyle full body*/
+
 body{
+    /*stlyle full body*/
     height: auto;
     width: 1160px;
     display: grid;
@@ -30,6 +31,7 @@ footer{
 /*style headdey contect*/
 
 header{
+    /*style headdey contect*/
     grid-area:header;
     background-color: #782221 ;
     display: grid;
@@ -40,8 +42,9 @@ header{
 
 
 }
-/*style aside en détais*/
+
 aside{
+    /*style aside en détais*/
     grid-area: nav;
     background-color: #782221 ;
     padding-left: 0%;
@@ -53,8 +56,9 @@ aside{
    
     
 }
-/*style main body expériances proffessionnels*/
+
 main{
+    /*style main body expériances proffessionnels*/
     grid-area: content;
     background-color: white;
     border-RIGHT: 5PX;
@@ -75,37 +79,42 @@ nav{
 }    
 
 footer{
+    /*style footer*/
     grid-area: footer;
     background-color: #782221 ;
    
 }
 
-header a{
 
+header a{
+    /*style header*/
     display: grid;
     justify-items: center;
 }
 
-    
-.wrapper{
+ /*style contect personnel*/   
+.underline{
     display: flex;
     justify-content: space-between;
     text-decoration: none;
+    color: white;  
 
 }
-   
 
+.underline:hover{
+     
+}
+
+
+   
+/*style headdings*/
 aside h3{
 background-color: #dbc2a4;
 color: black;
 display: flex;
 
-
-
-
-
 }
-
+/*style headding main*/
 main div h3{
     display: flex;
     color: black;
@@ -118,8 +127,9 @@ main div h3{
    
     
 }
-   
+  
 aside li{
+    /*style langue secteur*/ 
     list-style-type: disc;
 }
 
@@ -128,17 +138,18 @@ div li{
 }
 
 span a{
+    /*style réseau sociaux*/
     text-decoration: none;
     color: white;
    
 }
 
 aside p{
-    
+ /*style paragraphe*/   
 padding-left: 30px;
 
 }
-
+/*style image*/
 body img{
     
     height: 80px;
@@ -159,6 +170,7 @@ footer{
 }
 
 span{
+    /*style réseau sociaux*/
     display: flex;
     justify-content: space-around;
     
