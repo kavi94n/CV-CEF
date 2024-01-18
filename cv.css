@@ -92,6 +92,23 @@ header a{
     justify-items: center;
 }
 
+
+ /*style contect personnel*/   
+.underline{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;  
+
+}
+
+.underline:hover{
+     
+}
+
+
+   
+    
  /*style contect personnel*/   
 .underline{
     display: flex;
@@ -137,12 +154,7 @@ div li{
     list-style-type: disc;
 }
 
-span a{
-    /*style réseau sociaux*/
-    text-decoration: none;
-    color: white;
    
-}
 
 aside p{
  /*style paragraphe*/   
@@ -169,12 +181,10 @@ footer{
     
 }
 
-span{
-    /*style réseau sociaux*/
-    display: flex;
-    justify-content: space-around;
+    
     
 }
+
 
 
     
