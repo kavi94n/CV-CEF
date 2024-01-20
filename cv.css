@@ -61,7 +61,7 @@ main{
     /*style main body expériances proffessionnels*/
     grid-area: content;
     background-color: white;
-    border-RIGHT: 5PX;
+    border-right: 5PX;
     color: black;
     justify-content: space-around;
     border-right: 4px black solid;
@@ -71,6 +71,7 @@ main{
 nav{
     grid-area: title;
     background-color:#2c1d27 ;
+
     
   
    
@@ -91,25 +92,6 @@ header a{
     display: grid;
     justify-items: center;
 }
-
-
- /*style contect personnel*/   
-.underline{
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    color: white;  
-
-}
-
-
-
-
-
-   
-    
-   
-
 
 
 
