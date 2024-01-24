@@ -1,0 +1,62 @@
+.pic{
+    border-radius: 50%;
+    cursor: zoom-out;
+}
+
+.pic:hover{
+    zoom: 100%;
+
+}
+
+
+
+.pad{
+    display: flex;
+    border-right: hidden 5px white;
+
+
+}    
+
+
+
+.job{
+    display: flex;
+    margin-top: 0%;
+}
+
+ /*style contect personnel*/  
+
+footer a{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+
+nav{
+    display: grid;
+    
+}
+   
+    
+
+nav div{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    
+
+}
+
+nav div span a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    cursor: pointer;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
