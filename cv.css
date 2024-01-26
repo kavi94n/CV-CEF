@@ -104,7 +104,7 @@ display: flex;
 
 }
 /*style headding main*/
-main div h3{
+main section h3{
     display: flex;
     color: black;
     background-color: #dbc2a4;
